@@ -1,0 +1,23 @@
+.list-group{
+  font-size: 1.5em;
+}
+
+.green{
+  color: green;
+}
+
+.blue{
+  color: blue;
+}
+
+.red{
+  color: red;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
