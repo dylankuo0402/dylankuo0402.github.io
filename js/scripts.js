@@ -50,14 +50,17 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+    
 
 });
 
 /**
   * Preloader
   */
-let preloader = select('#preloader');
+let preloader = document.querySelector('#preloader')
+// let preloader = select('#preloader');
 if (preloader) {
+    console.log('get')
     window.addEventListener('load', () => {
         preloader.remove()
         console.log('preloader')
